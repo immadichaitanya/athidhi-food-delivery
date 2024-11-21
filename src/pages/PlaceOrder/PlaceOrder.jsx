@@ -9,7 +9,7 @@ const PlaceOrder = () => {
   const handleProceedToPayment = (event) => {
     event.preventDefault(); // Prevent default form submission
     alert('Ordered successfully');
-    window.location.assign('/order');
+    window.location.href = '/order';
   };
 
   return (
