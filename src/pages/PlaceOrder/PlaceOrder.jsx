@@ -7,9 +7,8 @@ const PlaceOrder = () => {
   const { getTotalCartAmount } = useContext(StoreContext);
 
   const handleProceedToPayment = (event) => {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault(); 
     alert('Ordered successfully');
-    window.location.href = '/PlaceOrder';
   };
 
   return (
