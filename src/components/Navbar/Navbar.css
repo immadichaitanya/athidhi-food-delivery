@@ -124,6 +124,9 @@
     .navbar-right button{
         padding: 8px 25px;
     }
+    .navbar-search{
+      width: 100px;
+    }
 }
 
 @media (max-width:900px) {
@@ -144,10 +147,16 @@
         padding: 7px 20px;
         font-size: 15px;
     }
+    .navbar-search{
+      display: none;
+    }
 }
 
 @media (max-width:750px) {
     .navbar-menu{
         display: none;
+    }
+    .navbar-search{
+      display: none;
     }
 }
